@@ -120,6 +120,6 @@ A machine learning application to classify Yelp reviews using NLP techniques.
 
 ---
 
-## Project Structure
+ 
 
  
