@@ -112,3 +112,28 @@ The [Yelp Open Dataset](https://www.yelp.com/dataset) (`yelp_academic_dataset_re
 3. **Feature selection** — Chi-Square and Mutual Information scores rank the most informative TF-IDF tokens.
 4. **Training** — all four classifiers are trained; the one with the highest macro F1 on the held-out test set is selected as the default predictor.
 5. **Prediction** — the best model classifies new reviews; a lexicon bar chart and colour-coded word highlights accompany each prediction.
+6. # Yelp Sentiment Analyser 📊
+A machine learning application to classify Yelp reviews using NLP techniques.
+
+[![Streamlit App](# Yelp Sentiment Analyser 📊
+A machine learning application to classify Yelp reviews using NLP techniques.
+
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](PASTE_YOUR_URL_HERE)
+
+---
+
+## App Preview
+![App Deployment Screenshot](Screenshot 2026-05-14 201253.png)
+
+---
+
+## Project Structure)](PASTE_YOUR_URL_HERE)
+
+---
+
+## App Preview
+![App Deployment Screenshot](app_screenshot.png)
+
+---
+
+ 
