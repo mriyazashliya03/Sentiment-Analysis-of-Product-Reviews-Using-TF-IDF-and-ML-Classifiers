@@ -99,41 +99,27 @@ The [Yelp Open Dataset](https://www.yelp.com/dataset) (`yelp_academic_dataset_re
 ```
 
 ---
-
 ## How It Works
 
-1. **Preprocessing** — text is lowercased and non-alphabetic characters are stripped before TF-IDF vectorisation.
-2. **Feature extraction** — TF-IDF bigrams (up to 5,000 features) are combined with six handcrafted features:
-   - Negative and positive lexicon scores (with negation and intensifier context)
-   - Sentence length (word count)
-   - Average word length
-   - Punctuation density
-   - Presence of negation words
-3. **Feature selection** — Chi-Square and Mutual Information scores rank the most informative TF-IDF tokens.
-4. **Training** — all four classifiers are trained; the one with the highest macro F1 on the held-out test set is selected as the default predictor.
-5. **Prediction** — the best model classifies new reviews; a lexicon bar chart and colour-coded word highlights accompany each prediction.
-6. # Yelp Sentiment Analyser 📊
+1. **Preprocessing** – Text is lowercased and cleaned.
+2. **Feature Extraction** – TF-IDF bigrams are combined with handcrafted features (lexicon scores, sentence length, etc.).
+3. **Feature Selection** – Chi-Square and Mutual Information rank the best tokens.
+4. **Training** – Multiple classifiers are compared; the one with the highest macro F1 is used.
+5. **Prediction** – Predicts sentiment with real-time word highlights
+## Yelp Sentiment Analyser 📊
+
 A machine learning application to classify Yelp reviews using NLP techniques.
 
-[![Streamlit App](# Yelp Sentiment Analyser 📊
-A machine learning application to classify Yelp reviews using NLP techniques.
-
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](PASTE_YOUR_URL_HERE)
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://uzmahaseeb4-yelp-sentiment-analyser-app-xxxxxx.streamlit.app)
 
 ---
 
 ## App Preview
+
 ![App Deployment Screenshot](Screenshot 2026-05-14 201253.png)
 
 ---
 
-## Project Structure)](PASTE_YOUR_URL_HERE)
-
----
-
-## App Preview
-![App Deployment Screenshot](app_screenshot.png)
-
----
+## Project Structure
 
  
