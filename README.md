@@ -99,27 +99,38 @@ The [Yelp Open Dataset](https://www.yelp.com/dataset) (`yelp_academic_dataset_re
 ```
 
 ---
-## How It Works
-
-1. **Preprocessing** – Text is lowercased and cleaned.
-2. **Feature Extraction** – TF-IDF bigrams are combined with handcrafted features (lexicon scores, sentence length, etc.).
-3. **Feature Selection** – Chi-Square and Mutual Information rank the best tokens.
-4. **Training** – Multiple classifiers are compared; the one with the highest macro F1 is used.
-5. **Prediction** – Predicts sentiment with real-time word highlights
-## Yelp Sentiment Analyser 📊
+ # Yelp Sentiment Analyser 📊
 
 A machine learning application to classify Yelp reviews using NLP techniques.
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://uzmahaseeb4-yelp-sentiment-analyser-app-xxxxxx.streamlit.app)
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://uzmahaseeb4-yelp-sentiment-analyser-app.streamlit.app)
 
 ---
 
 ## App Preview
 
-![App Deployment Screenshot](Screenshot 2026-05-14 201253.png)
+![App Deployment Screenshot](Screenshot%202026-05-14%20201253.png)
 
 ---
 
- 
+## Project Structure
+
+.
+├── app.py              # Main Streamlit application
+├── sentiment_model.py  # Model logic and feature extraction
+├── requirements.txt    # Python dependencies
+├── yelp.csv            # Dataset
+└── README.md           # This file
+
+
+---
+
+## How It Works
+
+1. **Preprocessing** – Text is lowercased and cleaned.
+2. **Feature Extraction** – TF-IDF bigrams are combined with handcrafted features.
+3. **Feature Selection** – Chi-Square and Mutual Information rank the best tokens.
+4. **Training** – Multiple classifiers are compared; the one with the highest macro F1 is used.
+5. **Prediction** – Predicts sentiment with real-time word highlights.
 
  
