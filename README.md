@@ -11,7 +11,7 @@
 A Streamlit web app for sentiment analysis of Yelp reviews using TF-IDF features combined with handcrafted linguistic signals and four ML classifiers.A Streamlit-based web application for performing sentiment analysis on Yelp reviews using a hybrid feature engineering approach. The project combines TF-IDF vectorization with handcrafted linguistic features and evaluates multiple machine learning classifiers for accurate sentiment prediction.
 
 ---
-##**Project Overview**
+# **Project Overview**
 
 This project analyzes Yelp customer reviews and predicts whether a review expresses positive or negative sentiment.
 ## Features
