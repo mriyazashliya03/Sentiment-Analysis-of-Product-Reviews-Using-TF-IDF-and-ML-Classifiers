@@ -16,6 +16,7 @@ A Streamlit web app for sentiment analysis of Yelp reviews using TF-IDF features
 This project analyzes Yelp customer reviews and predicts whether a review expresses positive or negative sentiment.
 
 The application:
+Cleans and preprocesses review text
 
 
 ## Features
