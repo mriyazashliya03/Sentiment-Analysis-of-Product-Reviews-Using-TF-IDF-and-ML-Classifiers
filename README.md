@@ -14,6 +14,10 @@ A Streamlit web app for sentiment analysis of Yelp reviews using TF-IDF features
 # **Project Overview**
 
 This project analyzes Yelp customer reviews and predicts whether a review expresses positive or negative sentiment.
+
+The application:
+
+
 ## Features
 
 - **Four classifiers** trained and compared side-by-side: Logistic Regression, Multinomial Naive Bayes, Linear SVM, and Gradient Boosting
