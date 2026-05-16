@@ -17,6 +17,11 @@ This project analyzes Yelp customer reviews and predicts whether a review expres
 
 The application:
 Cleans and preprocesses review text
+Extracts TF-IDF features
+Generates handcrafted linguistic features
+Trains and compares four machine learning models
+Provides an interactive Streamlit interface for real-time predictions
+
 
 
 ## Features
