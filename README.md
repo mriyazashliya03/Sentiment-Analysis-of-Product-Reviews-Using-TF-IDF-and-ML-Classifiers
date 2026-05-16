@@ -5,10 +5,10 @@
 | Name | Reg No | Course |
 | --- | --- | --- |
 | Uzma Haseeb | 253224 | MSc DataScience and BioAI|
-| [Member B Name] | [Reg No] | [Course] |
+| Anamika Ponnu | 253202 | M.Sc data Science and Bio AI |
 | | |  |
 
-A Streamlit web app for sentiment analysis of Yelp reviews using TF-IDF features combined with handcrafted linguistic signals and four ML classifiers.
+A Streamlit web app for sentiment analysis of Yelp reviews using TF-IDF features combined with handcrafted linguistic signals and four ML classifiers.A Streamlit-based web application for performing sentiment analysis on Yelp reviews using a hybrid feature engineering approach. The project combines TF-IDF vectorization with handcrafted linguistic features and evaluates multiple machine learning classifiers for accurate sentiment prediction.
 
 ---
 
