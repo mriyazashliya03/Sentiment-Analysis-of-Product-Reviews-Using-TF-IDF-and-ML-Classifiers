@@ -6,7 +6,7 @@
 | --- | --- | --- |
 | Uzma Haseeb | 253224 | MSc DataScience and BioAI|
 | Anamika Ponnu | 253202 | M.Sc data Science and Bio AI |
-| | |  |
+|  | |  |
 
 A Streamlit web app for sentiment analysis of Yelp reviews using TF-IDF features combined with handcrafted linguistic signals and four ML classifiers.A Streamlit-based web application for performing sentiment analysis on Yelp reviews using a hybrid feature engineering approach. The project combines TF-IDF vectorization with handcrafted linguistic features and evaluates multiple machine learning classifiers for accurate sentiment prediction.
 
@@ -58,7 +58,7 @@ venv\Scripts\activate           # Windows
 pip install -r requirements.txt
 ```
 
-### 4. Run the app
+### 4. Run the app-
 
 ```bash
 streamlit run sentiment_app.py
@@ -68,7 +68,7 @@ The app opens automatically at `http://localhost:8501`.
 
 ---
 
-## Dataset Format
+## Dataset Format-
 
 Upload any CSV file with at least two columns:
 
@@ -91,7 +91,7 @@ The [Yelp Open Dataset](https://www.yelp.com/dataset) (`yelp_academic_dataset_re
 
 ---
 
-## App Tabs
+## App Tabs-
 
 | Tab        | What it does                                                                 |
 |------------|------------------------------------------------------------------------------|
@@ -102,14 +102,14 @@ The [Yelp Open Dataset](https://www.yelp.com/dataset) (`yelp_academic_dataset_re
 
 ---
 
-## Requirements
+## Requirements-
 
 - Python 3.9 or later
 - See `requirements.txt` for package versions
 
 ---
 
-## Project Structure
+## Project Structure-
 
 ```
 .
@@ -119,7 +119,7 @@ The [Yelp Open Dataset](https://www.yelp.com/dataset) (`yelp_academic_dataset_re
 ```
 
 ---
- # Yelp Sentiment Analyser 📊
+ # Yelp Sentiment Analyser 📊-
 
 A machine learning application to classify Yelp reviews using NLP techniques.
 
@@ -127,13 +127,13 @@ A machine learning application to classify Yelp reviews using NLP techniques.
 
 ---
 
-## App Preview
+## App Preview-
 
 ![App Deployment Screenshot](Screenshot%202026-05-14%20201253.png)
 
 ---
 
-## Project Structure
+## Project Structure-
 
 .
 ├── app.py              # Main Streamlit application
@@ -145,9 +145,9 @@ A machine learning application to classify Yelp reviews using NLP techniques.
 
 ---
 
-## How It Works
+## How It Works-
 
-1. **Preprocessing** – Text is lowercased and cleaned.
+1. **Preprocessing** - Text is lowercased and cleaned.
 2. **Feature Extraction** – TF-IDF bigrams are combined with handcrafted features.
 3. **Feature Selection** – Chi-Square and Mutual Information rank the best tokens.
 4. **Training** – Multiple classifiers are compared; the one with the highest macro F1 is used.
